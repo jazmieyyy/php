@@ -1,3 +1,6 @@
+<!-- 17.Display the Fibonacci series up to a given number. -->
+
+<!DOCTYPE html>
 <html>
 <body>
     <h2>Fibonacci Series</h2>
