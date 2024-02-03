@@ -1,3 +1,6 @@
+<!-- 19.Write a PHP function to reverse a string -->
+
+<!DOCTYPE html>
 <html>
 <body>
     <h2>Reverse of a String</h2>
@@ -12,7 +15,7 @@
 		$string = $_POST['str'];
 		echo "Reverse string of $string is " .strrev( $string ); 
 		} 
-	?> 
+     ?> 
 </body>
 </html>
 
