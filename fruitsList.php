@@ -1,5 +1,7 @@
-<html>
+<!--27. Write an HTML page to display a list of fruits in a list box. Write php program to display the 
+selected fruits in a webpage.-->
 
+<html>
 <body>
     <h2> LIST OF FRUITS</h2>
     <form action="" method="POST">
@@ -23,6 +25,5 @@
     }
     ?>
 </body>
-
 </html>
 
