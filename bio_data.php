@@ -2,9 +2,6 @@
 an HTML page. -->
 
 <!DOCTYPE html>
-<head>
-    <title>BioData</title>
-</head>
 <body>
     <h2>Enter the details</h2>
     <form method="post">
