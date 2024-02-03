@@ -1,5 +1,7 @@
-<html>
+<!-- 16.Write a PHP program to check whether a given number is Armstrong or not. -->
 
+<!DOCTYPE html>
+<html>
 <body>
     <h2>Enter the Number</h2><br>
     <form action="" method="post">
@@ -26,5 +28,4 @@
 }
 ?>
 </body>
-
 </html>
