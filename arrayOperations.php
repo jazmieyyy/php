@@ -1,5 +1,13 @@
+<!-- 28. Write a PHP program to create an array and store 10 names in the array. Do the following 
+operations.
+a. Display the contents using for each statement.
+b. Display the array in a sorted order.
+c. Display the array without the duplicate elements
+d. Remove the last element and display
+e. Display the array in reverse order
+f. Search an element in the given array. -->
+<!DOCTYPE html>
 <html>
-
 <body>
     <h2>List</h2>
     <p>Chile, Colombia, Pakistan, Pakistan, Italy, Chile, Austria, New Zealand, United States</p>
@@ -54,6 +62,5 @@
 }
 ?>
 </body>
-
 </html>
 
