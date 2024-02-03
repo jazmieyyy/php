@@ -1,3 +1,7 @@
+<!-- 18.Create a PHP program to display the bio data of a person by reading the personal details using 
+an HTML page. -->
+
+<!DOCTYPE html>
 <html>
 <body>
     <form action="" method="POST">
