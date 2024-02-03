@@ -11,18 +11,24 @@
     </form>
 
     <?php
-	if ($_POST) {
-    $n1 = 0;
-    $n2 = 1;
-    $limit = $_POST['number'];
-    for($i=0; $i < $limit; $i++){
-    	 echo $n1 . "</br>";
-
-        $n3 = $n1 + $n2;
-        $n1 = $n2;
-        $n2 = $n3; 
+    function fibonacciSeries($limit) {
+        $fibonacci = [0, 1];
+        while (($next = end($fibonacci) + prev($fibonacci)) <= $limit) {
+            $fibonacci[] = $next;
+        }
+        return $fibonacci;
     }
-}
-?>
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $givenNumber = $_POST['number'];
+        if (!ctype_digit($givenNumber) || $givenNumber <= 0) {
+            echo "Invalid input. Please enter a positive integer.";
+        } else {
+            echo "Fibonacci series up to $givenNumber: ";
+            echo implode(" ", fibonacciSeries((int)$givenNumber));
+        }
+    }
+    ?>
+
 </body>
 </html>
