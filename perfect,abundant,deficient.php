@@ -1,10 +1,13 @@
+
+<!-- 20. Write a PHP program to check whether a given number is perfect, abundant or deficient. -->
+
 <html>
-	<body>
-		<h2> Perfect, Abundant or Deficient </h2>
-		<form action= "" method="post">
-			Enter the number: <input type="text" name="number" />
-			<input type="submit" value="Check" /> <br> <br>
-			<?php 
+<body>
+  <h2> Perfect, Abundant or Deficient </h2>
+	<form action= "" method="post">
+		Enter the number: <input type="text" name="number" />
+		 <input type="submit" value="Check" /> <br> <br>
+		 <?php 
 			if($_POST) {
 				$number = $_POST['number'];
 				$sum = 0;
@@ -21,7 +24,8 @@
 					echo "Deficient number";
 				}
 			}
-			?>
-		</form>
-	</body>
+		 ?>
+	</form>
+</body>
 </html>
+
