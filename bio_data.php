@@ -7,7 +7,7 @@ an HTML page. -->
     <form method="post">
         Name: <br><input type="text" name="name" required><br>
         Age: <br><input type="text" name="age" required><br>
-        Phone Number: <br><input type="tel" name="phone" required><br>
+        Phone Number: <br><input type="tel" name="phone" pattern="\d{10}" required><br>
         Email: <br><input type="email" name="email" required><br>
         Address: <br><textarea name="address" required></textarea><br>
         Gender: <br><input type="radio" id="male" name="gender" value="male" required>male 
