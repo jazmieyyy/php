@@ -1,0 +1,21 @@
+<!--27. Write an HTML page to display a list of fruits in a list box. Write php program to display the 
+selected fruits in a webpage.-->
+
+<!DOCTYPE html>
+
+<body>
+    <h2>Select Your Favorite Fruits</h2>
+    <form action="display_fruits.php" method="post">
+        <label for="fruits">Choose a fruit:</label>
+        <select name="selected_fruits[]" id="fruits" multiple>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="grape">Grape</option>
+            <option value="strawberry">Strawberry</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
