@@ -56,7 +56,7 @@ f. Search an element in the given array. -->
             break;
         case "search":
             echo "The searched element : " . $_POST["searchName"] . "<br>";
-            echo "<br/><br/>Position - " . array_search($_POST["searchName"], $countries, true);
+            echo "Position - " . array_search($_POST["searchName"], $countries, true);
             break;
     }
 }
